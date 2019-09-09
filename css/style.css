@@ -1,0 +1,195 @@
+﻿@import url(fontiran.css);
+body
+{
+	margin: 0px;
+	background-color: white;
+	background-image: url('../back.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+h6
+{
+	font-family: iranyekan;
+	color: white;
+}
+.player::cue
+{
+	font-size: 12pt;
+	font-family: iranyekan,"iranyekan",'iranyekan';
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{  
+	.title
+	{
+		text-align: center;
+		width: 360px;
+		height: 50px;
+		background-color: #F79489;
+		position: relative;
+		margin: 100px auto 0px auto;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		padding-top: 15px;
+		opacity: 0.8;
+	}
+	.videoplayer
+	{
+		width: 360px;
+		height: 400px;
+		background-color: #040A18;
+		margin: 0px auto 0px auto;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		opacity: 0.9;
+
+	}
+	.player
+	{
+		position: relative;
+		margin: 0px auto 0px auto;
+		object-fit: fill;
+		width: 360px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{  
+	.title
+	{
+		text-align: center;
+		width: 576px;
+		height: 50px;
+		background-color: #F79489;
+		position: relative;
+		margin: 100px auto 0px auto;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		padding-top: 15px;
+		opacity: 0.9;
+	}
+	.videoplayer
+	{
+		width: 576px;
+		height: 400px;
+		background-color: #040A18;
+		margin: 0px auto 0px auto;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		opacity: 0.9;
+	}
+	.player
+	{
+		position: relative;
+		margin: 0px auto 0px auto;
+		object-fit: fill;
+		width: 576px;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) 
+{  
+	.title
+	{
+		text-align: center;
+		width: 768px;
+		height: 50px;
+		background-color: #F79489;
+		position: relative;
+		margin: 100px auto 0px auto;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		padding-top: 15px;
+		opacity: 0.8;
+	}
+	.videoplayer
+	{
+		width: 768px;
+		height: 400px;
+		background-color: #040A18;
+		margin: 0px auto 0px auto;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		opacity: 0.9;
+	}
+	.player
+	{
+		position: relative;
+		margin: 0px auto 0px auto;
+		object-fit: fill;
+		width: 768px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{  
+	.title
+	{
+		text-align: center;
+		width: 800px;
+		height: 50px;
+		background-color: #F79489;
+		position: relative;
+		margin: 100px auto 0px auto;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		padding-top: 15px;
+		opacity: 0.8;
+	}
+	.videoplayer
+	{
+		width: 800px;
+		height: 400px;
+		background-color: #040A18;
+		margin: 0px auto 0px auto;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		opacity: 0.9;
+	}
+	.player
+	{
+		position: relative;
+		margin: 0px auto 0px auto;
+		object-fit: fill;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{  
+	.title
+	{
+		text-align: center;
+		width: 800px;
+		height: 50px;
+		background-color: #F79489;
+		position: relative;
+		margin: 100px auto 0px auto;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		padding-top: 15px;
+		opacity: 0.8;
+	}
+	.videoplayer
+	{
+		width: 800px;
+		height: 400px;
+		background-color: #040A18;
+		margin: 0px auto 0px auto;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		opacity: 0.9;
+	}
+	.player
+	{
+		position: relative;
+		margin: 0px auto 0px auto;
+		object-fit: fill;
+	}
+}
